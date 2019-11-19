@@ -4,18 +4,17 @@
 
 <head>
   <meta charset="utf-8">
-  <title>SPC 385</title>
+  <title>SPC_394 Malformed html page</title>
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 </head>
-
+ 
+ 
  <body>
- Test entry in the "body" tags
-  <p><script>matchwordA</script></p>
-  
-  <p><script>matchwordB</script></p>
-  <p><script/>matchwordC</script></p>
-  <p><script/>matchwordD</script></p>
-  <p>script>matchwordE</script</p>
-  <script type="text/javascript">alert('lolz')</>
+  < script>matchwordA</script>
+  < script>matchwordB</script>
+ </body>
+ 
+ <p>text outside  the body tags</p>
 
+matchwordC
 </html>
