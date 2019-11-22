@@ -1,7 +1,9 @@
   <!doctype html>
  <html lang="en">
 
+
    <head>
+ 
      <meta charset="utf-8">
      <title>SPCtests</title>
      <link rel="stylesheet" href="css/styles.css?v=1.0">
@@ -10,14 +12,16 @@
 
 
    <body>
+     
           <p align="center" >
               <font size="5">
                 <i><b><button type ="button" formtarget="_self" onclick="viewSource()">View page Source</button></b><i>
               </font>
           </p>
+                
    <script>  
     function viewSource(){;
-    var source = "<html>";
+    var source = "<!DOCTYPE html>";
     source += document.getElementsByTagName('html')[0].innerHTML;
     source += "</html>";
     source = source.replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -32,7 +36,7 @@
           <h3>
               <p align="center">
                  <a href="http://spctests.github.io/matchworda" title="If you read it - please make 20 push-ups) and 
-                     let me know about it) dmitreyer@gmail.com :)">The page with matching word in the <i>URL</i>s <b>path</b></a></p>
+                     let me know about it) dmitreyer@gmail.com :)">The page with the matching word in the <i>URL</i>s <b>path</b></a></p>
               <p> 
           </h3>
             
