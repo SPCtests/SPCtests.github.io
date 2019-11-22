@@ -15,23 +15,9 @@
      
           <p align="center" >
               <font size="5">
-                <i><b><button type ="button" formtarget="_self" onclick="viewSource()">View page Source</button></b><i>
+                For <i><b>View page source</b><i> press <b>Ctrl+U</b>
               </font>
           </p>
-                
-   <script>  
-    function viewSource(){;
-    var source = "<!DOCTYPE html>";
-    source += document.getElementsByTagName('html')[0].innerHTML;
-    source += "</html>";
-    source = source.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-    source = "<pre>"+source+"</pre>";
-    sourceWindow = window.open('','Source of page','height=800,width=800,scrollbars=1,resizable=1');
-    sourceWindow.document.write(source);
-    sourceWindow.document.close(); 
-    if(window.focus) sourceWindow.focus();
-}  
-     </script>
                 
           <h3>
               <p align="center">
@@ -40,8 +26,8 @@
               <p> 
           </h3>
             
-          <p align="left">     
-             <img  width="100"  src="https://freepngimg.com/thumb/bugs/7-2-bug-png-6.png">
+          <p align="center">     
+             <img  width="400"  src="https://freepngimg.com/thumb/bugs/7-2-bug-png-6.png">
           </p>
      
           <p align="left">
